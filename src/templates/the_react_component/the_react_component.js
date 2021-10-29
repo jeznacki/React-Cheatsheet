@@ -1,3 +1,5 @@
+import Gist from 'react-gist';
+
 function View_TheReactComponent() {
 
     return <div className='cont'>
@@ -13,21 +15,8 @@ function View_TheReactComponent() {
             The function component possess implementation details like any other JavaScript function.
         </header>
         <div>
- <pre>
-        <code>{`
-         const title = 'React';
 
-         function App() {
-
-            return (
-              <div>
-               <h1>Hello World</h1>
-              </div>
-            );
-         }
-        `}
-        </code>
- </pre>
+            <Gist id='06f636ef1212f35453599c08877fe736' />
 
             <h3>Examples (check the source code)</h3>
             <section>
