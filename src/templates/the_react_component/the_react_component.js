@@ -22,9 +22,13 @@ function View_TheReactComponent() {
             <section>
                 <Component1/>
             </section>
-            <hr/>
+             <hr/>
             <section>
                 <Component2/>
+            </section>
+            <hr/>
+            <section>
+                <Component3/>
             </section>
             <hr/>
 
@@ -33,7 +37,7 @@ function View_TheReactComponent() {
 }
 
 function Component1() {
-    // do something in between
+
     const title = 'Hi, Mate!';
 
     return (
@@ -54,6 +58,20 @@ function Component2() {
     return (
         <div>
             {welcome.greeting} {welcome.title}
+        </div>
+    );
+}
+
+function getTitle(title) {
+    return title;
+}
+
+function Component3() {
+
+
+    return (
+        <div>
+            {getTitle('React')}
         </div>
     );
 }

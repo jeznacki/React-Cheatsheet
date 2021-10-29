@@ -9,7 +9,7 @@ import {
 
 
 import View_TheReactComponent from './templates/the_react_component/the_react_component.js';
-
+import View_ListsInReact from './templates/lists_in_react/lists_in_react.js';
 
 export default function App() {
     return (
@@ -25,7 +25,7 @@ export default function App() {
                             <Link to="/the-react-component">The React Component & JSX</Link>
                         </li>
                         <li>
-                            <Link to="/users">Lists in React</Link>
+                            <Link to="/lists-inreact">Lists in React</Link>
                         </li>
                         <li>
                             <Link to="/users"> Another React Component</Link>
@@ -35,8 +35,8 @@ export default function App() {
 
                 <article>
                     <Switch>
-                        <Route path="/about">
-                            <About />
+                        <Route path="/lists-inreact">
+                            <View_ListsInReact />
                         </Route>
                         <Route path="/the-react-component">
                             <View_TheReactComponent />
