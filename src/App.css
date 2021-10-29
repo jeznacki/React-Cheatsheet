@@ -6,13 +6,24 @@
 }
 
 aside {
-  max-width: 30%;
+  width: 16rem;
   padding-right: 3rem;
   background-color: #ebebeb;
+  flex: 0 0 auto;
 }
 
 article {
   padding: 2rem;
+  width: auto;
+  width: 100%;
+}
+
+header {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
+  background: #fafafa;
+  width: 100%;
 }
 
 

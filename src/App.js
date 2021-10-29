@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 
 
+import View_TheReactComponent from './templates/the_react_component/the_react_component.js';
+
+
 export default function App() {
     return (
         <Router>
@@ -18,7 +21,7 @@ export default function App() {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/about">The React Component</Link>
+                            <Link to="/the-react-component">The React Component</Link>
                         </li>
                         <li>
                             <Link to="/users">Lists in React</Link>
@@ -34,8 +37,8 @@ export default function App() {
                         <Route path="/about">
                             <About />
                         </Route>
-                        <Route path="/users">
-                            <Users />
+                        <Route path="/the-react-component">
+                            <View_TheReactComponent />
                         </Route>
                         <Route path="/">
                             <Home />
@@ -49,13 +52,29 @@ export default function App() {
 }
 
 function Home() {
-    return <h2>Home</h2>;
+    return <div className='cont'>
+
+        <header>
+            <h2>Home</h2>
+            Example header text
+        </header>
+        <div>
+
+            <section>
+                gsfgs
+            </section>
+            <hr/>
+            <section>
+                fgsdfgs
+            </section>
+            <hr/>
+
+        </div>
+    </div>;
 }
 
 function About() {
     return <h2>About</h2>;
 }
 
-function Users() {
-    return <h2>Users</h2>;
-}
+
