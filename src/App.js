@@ -21,7 +21,7 @@ export default function App() {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/the-react-component">The React Component</Link>
+                            <Link to="/the-react-component">The React Component & JSX</Link>
                         </li>
                         <li>
                             <Link to="/users">Lists in React</Link>
