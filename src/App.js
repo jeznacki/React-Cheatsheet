@@ -10,6 +10,9 @@ import {
 
 import View_TheReactComponent from './templates/the_react_component/the_react_component.js';
 import View_ListsInReact from './templates/lists_in_react/lists_in_react.js';
+import View_ArrowComponents from './templates/arrow_components/arrow_components.js';
+import View_ReactState from './templates/react_state/react_state.js';
+
 
 export default function App() {
     return (
@@ -17,6 +20,9 @@ export default function App() {
             <div className='App'>
 
                 <aside>
+
+                    <h3>Basics</h3>
+
                     <ul>
                         <li>
                             <Link to="/">Home</Link>
@@ -28,9 +34,16 @@ export default function App() {
                             <Link to="/lists-inreact">Lists in React</Link>
                         </li>
                         <li>
-                            <Link to="/users"> Another React Component</Link>
+                            <Link to="/arrow-components">Arrow Function Components</Link>
+                        </li>
+                        <li>
+                            <Link to="/react-state">React State</Link>
                         </li>
                     </ul>
+
+                    <h3>Intermediate</h3>
+
+                    <h3>Advanced</h3>
                 </aside>
 
                 <article>
@@ -40,6 +53,12 @@ export default function App() {
                         </Route>
                         <Route path="/the-react-component">
                             <View_TheReactComponent />
+                        </Route>
+                        <Route path="/arrow-components">
+                            <View_ArrowComponents />
+                        </Route>
+                        <Route path="/react-state">
+                            <View_ReactState />
                         </Route>
                         <Route path="/">
                             <Home />

@@ -12,6 +12,10 @@ aside {
   flex: 0 0 auto;
 }
 
+aside h3 {
+  padding-left: 2rem;
+}
+
 article {
   padding: 2rem;
   width: auto;
