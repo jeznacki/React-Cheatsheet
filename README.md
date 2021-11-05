@@ -1,4 +1,4 @@
-# Master-React
+# React cheatsheet 
 
 ##Basics
 
