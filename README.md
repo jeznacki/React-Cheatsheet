@@ -1,4 +1,4 @@
-# React CheatShet 
+# React Cheatsheet 
 
 ## Basics
 
